@@ -10,3 +10,4 @@ export async function GET() {
     // JSONでレスポンス
     return NextResponse.json({ shops })
 }
+// あああ
