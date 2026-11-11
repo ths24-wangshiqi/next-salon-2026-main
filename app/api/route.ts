@@ -6,7 +6,7 @@ import { NextResponse } from "next/server";
 export async function GET() {
     // TODO: DBからショップデータを取得
     const shops = MOCK_SHOPS
-
+    // TODO: 取得したショップデータをJSON形式で返す
     // JSONでレスポンス
     return NextResponse.json({ shops })
 }
